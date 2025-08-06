@@ -10,6 +10,7 @@ export interface IUser extends Document {
   isVerified: boolean;
   emailVerified: boolean;
   phoneVerified: boolean;
+  hasHealthProfile: boolean;
   password: string;
   refreshTokens: string[];
   lastLogin?: Date;
@@ -81,6 +82,10 @@ const userSchema = new Schema<IUser>({
     default: false
   },
   phoneVerified: {
+    type: Boolean,
+    default: false
+  },
+  hasHealthProfile: {
     type: Boolean,
     default: false
   },

@@ -17,6 +17,7 @@ import { connectDB, connectRedis } from './config/database';
 // Import routes
 import authRoutes from './routes/auth';
 import userRoutes from './routes/users';
+import healthProfileRoutes from './routes/healthProfile';
 import foodRoutes from './routes/food';
 import orderRoutes from './routes/orders';
 import vendorRoutes from './routes/vendors';
@@ -140,6 +141,7 @@ app.get('/health', (req, res) => {
 // API routes
 app.use('/api/auth', authRoutes);
 app.use('/api/users', userRoutes);
+app.use('/api/health-profile', healthProfileRoutes);
 app.use('/api/food', foodRoutes);
 app.use('/api/orders', orderRoutes);
 app.use('/api/vendors', vendorRoutes);
