@@ -1,0 +1,1 @@
+import React from "react"; const FoodMenuPage: React.FC = () => <div className="min-h-screen flex items-center justify-center"><h1 className="text-2xl font-bold">FoodMenuPage - Coming Soon</h1></div>; export default FoodMenuPage
