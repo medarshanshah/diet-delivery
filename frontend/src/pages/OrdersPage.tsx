@@ -1,0 +1,1 @@
+import React from "react"; const OrdersPage: React.FC = () => <div className="min-h-screen flex items-center justify-center"><h1 className="text-2xl font-bold">OrdersPage - Coming Soon</h1></div>; export default OrdersPage

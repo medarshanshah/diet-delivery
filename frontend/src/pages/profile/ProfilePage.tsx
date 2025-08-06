@@ -1,0 +1,1 @@
+import React from "react"; const ProfilePage: React.FC = () => <div className="min-h-screen flex items-center justify-center"><h1 className="text-2xl font-bold">ProfilePage - Coming Soon</h1></div>; export default ProfilePage
